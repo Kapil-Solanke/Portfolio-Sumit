@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.faqs {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.faqs .faq {
+    padding: 15px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.faqs .faq .faq-question {
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+    transition: all 0.4s ease;
+}
+
+@media (width<550px) {
+    .faqs .faq .faq-question {
+        position: relative;
+        font-size: 80%;
+        padding-right: 20px;
+        transition: all 0.4s ease;
+    }
+
+    .faqs .faq .faq-answer {
+        font-size: 80%;
+    }
+}
+
+@media (width<440px) {
+    .faqs .faq .faq-question {
+        position: relative;
+        font-size: 70%;
+        padding-right: 80px;
+        transition: all 0.4s ease;
+    }
+
+    .faqs .faq {
+        width: 100%;
+        padding: 4px 4px;
+    }
+
+    .faqs .faq .faq-answer {
+        font-size: 70%;
+    }
+}
+
+.faqs .faq .faq-question::after {
+    content: "+";
+    position: absolute;
+    background-color: #5C3890;
+    color: white;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease;
+}
+
+.faqs .faq .faq-answer {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+    content: "-";
+}
+
+.faqs .faq.open .faq-answer {
+    max-height: 1000px;
+    opacity: 1;
+}
