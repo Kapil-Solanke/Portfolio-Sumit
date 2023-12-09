@@ -17,7 +17,7 @@ export const Footer = () => {
             message: message.value,
         };
         try{
-            let response = await fetch(`http://localhost:5000/contact`, {
+            let response = await fetch(`https://portfolio-sumit.onrender.com/contact`, {
             // let response = await fetch(process.env.REACT_APP_BASE_URL+"/contact", {
             // let response = await fetch(`${process.env.REACT_APP_BASE_URL}/contact`, {
                 method: "POST",
