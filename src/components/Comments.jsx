@@ -3,7 +3,7 @@ import { CommentCard } from './Cards/CommentCard'
 
 export const Comments = () => {
     return (
-        <div className='flex max-md:flex-col justify-between w-3/4 max-sm:w-11/12 m-auto' id='comments'>
+        <div className='flex max-md:flex-col justify-between w-3/4 max-[300px]:w-11/12 m-auto' id='comments'>
             <div className='flex flex-col  justify-center gap-2 w-[40%] max-md:w-11/12'>
                 <div className='text-[#FF7A2F] text-base font-bold'>Comments</div>
                 <div className=' text-3xl font-bold max-md:text-2xl max-[500px]:text-xl'>Hear what happy clients are saying about my work.</div>

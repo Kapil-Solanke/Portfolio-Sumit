@@ -1,7 +1,7 @@
 import React from 'react'
 export const ProjectCard = ({ t1, t2, head,title, para,bottom,list,width }) => {
     return (
-        <div className={` max-w-[${width}] mx-auto min-h-[400px] rounded-md shadow-[3px_3px_10px_#565656]`}>
+        <div className={` max-w-[300px] max-[330px]:w-2/3 mx-auto min-h-[400px] rounded-md shadow-[3px_3px_10px_#565656]`}>
             <div className={`min-h-[200px] bg-[#D9D9D9]`}></div>
             <div className=' flex flex-col min-h-[200px] justify-around gap-1 p-4 '>
                 <div className='flex justify-between text-[10px] font-bold text-[#FF7A2F]'>
