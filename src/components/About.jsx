@@ -12,7 +12,7 @@ export const About = () => {
           About Me
         </div>
         <div className='text-[#767676] text-base max-md:text-sm font-normal'>
-          I have expertise in Adobe XD, Figma, and Adobe Creative Suite. With a strong background in graphic design, UX prototyping, and wireframing, I specialize in crafting solution-driven UI designs, adaptable systems, and responsive multi-screen interfaces.
+          I have expertise in Figma, Adobe XD, and Adobe Creative Suite. With a strong background in graphic design, UX prototyping, and wireframing, I specialize in crafting solution-driven UI designs, adaptable systems, and responsive multi-screen interfaces.
         </div>
         <a href={ExamplePdf}
           download="My_Resume"
