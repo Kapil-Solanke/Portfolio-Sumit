@@ -11,7 +11,7 @@ export const Offerings = () => {
     <div className=' text-center my-20' id='offerings'>
         <div className='text-[#FF7A2F] text-md font-bold'>MY OFFERINGS</div>
         <div className='text-xl font-bold'>The impressive services only for you</div>
-        <div className='text-[#767676] text-sm max-md:text-xs max-md:w-11/12 w-[50%] m-auto'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</div>
+        <div className='text-[#767676] text-sm max-md:text-xs max-md:w-11/12 w-[50%] m-auto'>Customized industry solutions utilizing diverse skills and software expertise for all clients.</div>
 
         <div className='grid grid-cols-3 max-md:grid-cols-1  gap-6 max-md:gap-0  w-3/4  m-auto'>
         {/* <div className='flex flex-wrap gap-6  w-3/4  m-auto'> */}
